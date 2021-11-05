@@ -11,6 +11,11 @@ h2 {
   color: #93612c;
 }
 
+header div {
+  padding-bottom: 1rem;
+  padding-top: .75rem;
+}
+
 .masthead,
 .footer {
   background-color: #93612c;
@@ -30,4 +35,12 @@ h2 {
 .banner-content {
   color: #fff;
   text-shadow: .1em .1em .3em rgba(0, 0, 0, .6);
+}
+
+@media only screen and (min-width: 38em) {
+
+  header div {
+    padding: .06rem;
+  }
+
 }
